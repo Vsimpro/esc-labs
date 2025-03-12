@@ -1,7 +1,5 @@
 ## How to run:
 
-
-
 ### db_locally
 
 ```
@@ -17,3 +15,19 @@ The terminal should get a printout like this
 ```
 
 The API is now accessible via the Docker network IP, in this case, `172.17.0.2`
+
+
+### Scripts
+
+MAKE SURE THE API CONTAINER ABOVE IS RUNNING.
+
+Install requests package:
+```
+python3 -m pip install requests
+```
+
+Run the script:
+```
+cd ./scripts
+python3 enumeration.py
+```
